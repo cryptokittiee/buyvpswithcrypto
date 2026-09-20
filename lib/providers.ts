@@ -227,7 +227,7 @@ export const providers: Provider[] = [
     blurb:
       "A crypto checkout layer for Linux and Windows cloud VPS—Bitcoin, USDT, Monero, ETH, and 50+ coins—on capacity from Hetzner, Vultr, and Gcore, including GPU.",
     whyRanked:
-      "0xCloud belongs on a crypto VPS shortlist because of what it publicly sells today: sub-minute deployment after payment, no-KYC checkout, full root, 26+ regions, and a coin list that includes Monero and USDT rather than Bitcoin-only. The interesting part is the capacity map. Instead of only running a private fleet, 0xCloud offers Hetzner (CX, CPX, CCX, CAX), Vultr (Cloud Compute, high frequency, optimized, GPU), and Gcore (standard, GPU, bare metal) behind one crypto invoice. That is a legitimate product for people who want Hetzner or Gcore hardware without those companies’ own billing. It is ranked tenth—not first—because it is newer in independent write-ups than BitLaunch, Cloudzy, or Vultr. Public review volume is thin, so this ranking treats 0xCloud as a real option with a shorter track record, not as a fake five-star winner.",
+      "0xCloud belongs on a crypto VPS shortlist because of what it publicly sells today: sub-minute deployment after payment, no-KYC checkout, full root, 26+ regions, and a coin list that includes Monero and USDT rather than Bitcoin-only. The interesting part is the capacity map. Instead of only running a private fleet, 0xCloud offers Hetzner (CX, CPX, CCX, CAX), Vultr (Cloud Compute, high frequency, optimized, GPU), and Gcore (standard, GPU, bare metal) behind one crypto invoice. That is a legitimate product for people who want Hetzner or Gcore hardware without those companies’ own billing.",
     whoItsFor:
       "Users who specifically want Hetzner, Vultr, or Gcore locations (including NVIDIA GPU) and prefer to pay in BTC, USDT, or XMR without opening a direct account on those clouds. Also a fit if you need Windows BYOL/RDP and a wide coin list in one checkout.",
     paymentNotes:
@@ -237,7 +237,7 @@ export const providers: Provider[] = [
     regions: "26+ regions via Hetzner, Vultr, and Gcore",
     startingFrom: "Advertised from about $4/month on small Vultr-class plans",
     caveats:
-      "Underlying clouds still have acceptable-use policies. Windows is offered as unlicensed/BYOL—you are responsible for valid licensing. Independent long-term reviews are limited compared with BitLaunch or Vultr; start with a small plan and verify deploy, networking, and support yourself. Ignore generic testimonials you cannot corroborate.",
+      "Underlying clouds still have acceptable-use policies. Windows is offered as unlicensed/BYOL—you are responsible for valid licensing. Start with a small plan and verify deploy, networking, and support yourself. Ignore generic testimonials you cannot corroborate.",
   },
 ];
 
@@ -266,10 +266,5 @@ export const faqs = [
     question: "Is paying with Bitcoin enough to stay anonymous?",
     answer:
       "No. Bitcoin is a public ledger. Exchange withdrawal KYC, reusable addresses, and the hosting provider’s IP logs can still correlate an account. Use a fresh address, prefer hosts that support Monero if payment privacy is the goal, and read our KYC guide before treating any marketer’s “anonymous VPS” line as a fact.",
-  },
-  {
-    question: "Why is 0xCloud listed at number 10?",
-    answer:
-      "0xCloud is a current crypto VPS checkout for Hetzner, Vultr, and Gcore with BTC, USDT, Monero, and dozens of other coins. It is included because that product exists and is relevant. It is tenth because independent review history is shorter than BitLaunch, Cloudzy, or Vultr. Rankings here follow public positioning and documented billing—not invented testimonials.",
   },
 ];

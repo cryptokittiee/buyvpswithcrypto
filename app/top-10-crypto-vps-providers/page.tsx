@@ -94,9 +94,7 @@ export default function RankingArticlePage() {
         </h2>
         <p className="leading-7 text-muted-foreground">
           Jump to a provider for ranking reasons, who it is for, and payment
-          notes. 0xCloud is number 10 by design: it is a real multi-cloud crypto
-          checkout with a shorter independent review history than the names
-          above it.
+          notes.
         </p>
         <RankingTable linked={false} />
       </section>

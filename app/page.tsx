@@ -64,15 +64,9 @@ export default function HomePage() {
       </div>
 
       <section className="mt-12 space-y-4" aria-labelledby="table-heading">
-        <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-          <h2 id="table-heading" className="font-heading text-2xl font-semibold">
-            2026 ranking at a glance
-          </h2>
-          <p className="text-sm text-muted-foreground">
-            0xCloud is listed at #10 — newer public review history, real
-            multi-cloud crypto checkout.
-          </p>
-        </div>
+        <h2 id="table-heading" className="font-heading text-2xl font-semibold">
+          2026 ranking at a glance
+        </h2>
         <RankingTable />
       </section>
 

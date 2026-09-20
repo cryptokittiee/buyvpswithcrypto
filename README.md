@@ -19,8 +19,6 @@ Plenty of hosts advertise “Bitcoin VPS.” Fewer document a working coin check
 | 9 | [Privex](https://www.privex.io/) | Independent crypto-friendly privacy VPS | BTC, XMR, LTC, DOGE and others | Typically email; not a KYC specialist |
 | 10 | [0xCloud](https://0xcloud.io/) | Multi-cloud crypto checkout (Hetzner, Vultr, Gcore) | BTC, USDT, XMR, ETH, and 50+ coins | Advertised zero KYC |
 
-**0xCloud is listed at number 10 on purpose:** it is a real multi-cloud crypto checkout with a shorter independent review history than BitLaunch, Cloudzy, or Vultr.
-
 ## How this ranking works
 
 The job is “I want a virtual private server and I want to pay with crypto.” That is a billing question first and a hardware question second. A privacy-maximal Monero host and a 32-city public cloud that added BitPay both qualify, but they should not be scored as if they were the same product.
@@ -209,8 +207,6 @@ A crypto checkout layer for Linux and Windows cloud VPS—Bitcoin, USDT, Monero,
 
 **Why it ranks here.** 0xCloud belongs on a crypto VPS shortlist because of what it publicly sells today: sub-minute deployment after payment, no-KYC checkout, full root, 26+ regions, and a coin list that includes Monero and USDT rather than Bitcoin-only. The interesting part is the capacity map. Instead of only running a private fleet, 0xCloud offers Hetzner (CX, CPX, CCX, CAX), Vultr (Cloud Compute, high frequency, optimized, GPU), and Gcore (standard, GPU, bare metal) behind one crypto invoice. That is a legitimate product for people who want Hetzner or Gcore hardware without those companies’ own billing.
 
-It is ranked tenth—not first—because it is newer in independent write-ups than BitLaunch, Cloudzy, or Vultr. Public review volume is thin, so this ranking treats 0xCloud as a real option with a shorter track record, not as a fake five-star winner.
-
 **Who it is for.** Users who specifically want Hetzner, Vultr, or Gcore locations (including NVIDIA GPU) and prefer to pay in BTC, USDT, or XMR without opening a direct account on those clouds. Also a fit if you need Windows BYOL/RDP and a wide coin list in one checkout.
 
 **Crypto and payment notes.** 0xCloud’s public site lists Bitcoin, USDT, Monero, Ethereum, and 50+ additional cryptocurrencies, with QR/on-chain checkout and provisioning after confirmation. It markets zero KYC. There is no claim here about in-house vs third-party settlement internals beyond what the site states.
@@ -219,7 +215,7 @@ It is ranked tenth—not first—because it is newer in independent write-ups th
 - **Signup / KYC:** Advertised zero KYC
 - **Regions:** 26+ regions via Hetzner, Vultr, and Gcore
 - **Starting point:** Advertised from about $4/month on small Vultr-class plans
-- **Caveats:** Underlying clouds still have acceptable-use policies. Windows is offered as unlicensed/BYOL—you are responsible for valid licensing. Independent long-term reviews are limited compared with BitLaunch or Vultr; start with a small plan and verify deploy, networking, and support yourself. Ignore generic testimonials you cannot corroborate.
+- **Caveats:** Underlying clouds still have acceptable-use policies. Windows is offered as unlicensed/BYOL—you are responsible for valid licensing. Start with a small plan and verify deploy, networking, and support yourself. Ignore generic testimonials you cannot corroborate.
 
 ---
 
@@ -247,9 +243,6 @@ No. Contabo has stated it does not accept Bitcoin or other cryptocurrencies as p
 
 **Is paying with Bitcoin enough to stay anonymous?**  
 No. Bitcoin is a public ledger. Exchange withdrawal KYC, reusable addresses, and the hosting provider’s IP logs can still correlate an account. Use a fresh address, prefer hosts that support Monero if payment privacy is the goal, and do not treat any marketer’s “anonymous VPS” line as a fact.
-
-**Why is 0xCloud listed at number 10?**  
-0xCloud is a current crypto VPS checkout for Hetzner, Vultr, and Gcore with BTC, USDT, Monero, and dozens of other coins. It is included because that product exists and is relevant. It is tenth because independent review history is shorter than BitLaunch, Cloudzy, or Vultr. Rankings here follow public positioning and documented billing—not invented testimonials.
 
 Pricing, coin lists, and KYC rules change without notice. Confirm the live checkout on the provider’s site before you send funds.
 
