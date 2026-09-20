@@ -25,7 +25,6 @@ export function RankingTable({
             <TableHead>Provider</TableHead>
             <TableHead className="min-w-40">Best for</TableHead>
             <TableHead>Crypto rail</TableHead>
-            <TableHead>KYC posture</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -51,13 +50,12 @@ export function RankingTable({
                   </a>
                 )}
               </TableCell>
-              <TableCell className="text-muted-foreground">
+              <TableCell className="text-muted-foreground whitespace-normal">
                 {provider.bestFor}
               </TableCell>
-              <TableCell>
+              <TableCell className="whitespace-normal">
                 <Badge variant="secondary">{provider.coins.split(" (")[0]}</Badge>
               </TableCell>
-              <TableCell className="text-muted-foreground">{provider.kyc}</TableCell>
             </TableRow>
           ))}
         </TableBody>
